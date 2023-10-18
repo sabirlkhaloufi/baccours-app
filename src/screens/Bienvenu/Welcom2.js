@@ -15,7 +15,12 @@ import Button from "../../components/Button";
 const Welcom2 = ({navigation}) => {
   return (
     <View style={styles.Container}>
-      <StatusBar />
+      <Image
+            style={{position: "absolute",top: 0, left:- 10}}
+            source={require("../../assets/images/welcome2/Ornament.png")}
+          />
+      {/* <StatusBar /> */}
+      
       <View style={styles.bienvenuscreen}>
         <TouchableOpacity style={styles.skip}>
           <Text>Skip</Text>

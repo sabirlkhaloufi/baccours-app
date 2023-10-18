@@ -3,7 +3,7 @@ import React, {useEffect} from "react";
 import {Data} from '../../database/Data'
 import CategoryItem from "../../components/CategoryItem";
 
-const HomeScreen = () => {
+const CoursesScreen = () => {
 
   useEffect(() => {
     console.log('====================================');
@@ -45,7 +45,7 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default CoursesScreen;
 
 const styles = StyleSheet.create({
   TopBar: {

@@ -8,7 +8,6 @@ import {
   ScrollView,
 } from "react-native";
 import React from "react";
-import Icon from 'react-native-vector-icons/AntDesign';
 import Button from "../../components/Button";
 
 // import { fontLater } from "../../components/Font";
